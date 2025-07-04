@@ -34,7 +34,7 @@ const HomePage: NextPage = () => {
           { fromBase: 16, value: base16 },
         ].map(({ fromBase, value }) => {
           return (
-            <div className="flex items-center justify-center gap-x-2 px-4 py-2">
+            <div key={fromBase} className="flex items-center justify-center gap-x-2 px-4 py-2">
               <span>Base {fromBase}</span>
               <input
                 type="text"
