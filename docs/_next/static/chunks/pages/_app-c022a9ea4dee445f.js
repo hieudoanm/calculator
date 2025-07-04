@@ -12,8 +12,8 @@
       s(2147);
       var t = s(7332),
         n = s.n(t),
-        _ = s(8580),
-        r = s.n(_),
+        r = s(8580),
+        _ = s.n(r),
         c = s(4626),
         i = s.n(c);
       let o = (a) => {
@@ -22,8 +22,11 @@
           children: [
             (0, l.jsx)(i(), { children: (0, l.jsx)('title', { children: 'Numbers' }) }),
             (0, l.jsx)('div', {
-              className: ''.concat(n().className, ' ').concat(r().className),
-              children: (0, l.jsx)(e, { ...s }),
+              className: ''.concat(n().className, ' ').concat(_().className),
+              children: (0, l.jsx)('div', {
+                className: 'bg-neutral-900 text-neutral-100',
+                children: (0, l.jsx)(e, { ...s }),
+              }),
             }),
           ],
         });

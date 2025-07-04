@@ -1,7 +1,7 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [332],
+  [79],
   {
-    4713: (e, r, t) => {
+    1948: (e, r, t) => {
       'use strict';
       (t.r(r), t.d(r, { default: () => n }));
       var a = t(5640);
@@ -31,7 +31,7 @@
           className: 'flex h-screen w-screen items-center justify-center',
           children: (0, a.jsx)('div', {
             className:
-              'flex w-full max-w-sm flex-col gap-y-2 divide-y divide-neutral-200 rounded border border-neutral-200 shadow-sm',
+              'flex w-full max-w-sm flex-col gap-y-2 divide-y divide-neutral-800 rounded-xl border border-neutral-800',
             children: [
               { fromBase: 2, value: e },
               { fromBase: 8, value: r },
@@ -71,17 +71,17 @@
         });
       };
     },
-    8898: (e, r, t) => {
+    8535: (e, r, t) => {
       (window.__NEXT_P = window.__NEXT_P || []).push([
-        '/',
+        '/base',
         function () {
-          return t(4713);
+          return t(1948);
         },
       ]);
     },
   },
   (e) => {
     var r = (r) => e((e.s = r));
-    (e.O(0, [636, 593, 792], () => r(8898)), (_N_E = e.O()));
+    (e.O(0, [636, 593, 792], () => r(8535)), (_N_E = e.O()));
   },
 ]);

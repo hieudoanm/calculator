@@ -1,4 +1,4 @@
-export const toRoman = (num: number): string => {
+export const arabic2roman = (num: number): string => {
   const romanMap: { value: number; numeral: string }[] = [
     { value: 1000, numeral: 'M' },
     { value: 900, numeral: 'CM' },
@@ -15,7 +15,7 @@ export const toRoman = (num: number): string => {
     { value: 1, numeral: 'I' },
   ];
 
-  let result = '';
+  let result: string = '';
   for (const { value, numeral } of romanMap) {
     while (num >= value) {
       result += numeral;
@@ -25,7 +25,7 @@ export const toRoman = (num: number): string => {
   return result;
 };
 
-export const fromRoman = (roman: string): number => {
+export const roman2arabic = (roman: string): string => {
   const romanMap: { [key: string]: number } = {
     M: 1000,
     D: 500,
@@ -51,9 +51,5 @@ export const fromRoman = (roman: string): number => {
     prev = current;
   }
 
-  return total;
-};
-
-export const roman = (number: number) => {
-  return { from: () => fromRoman(number.toString()), to: () => toRoman(number) };
+  return total.toString();
 };
