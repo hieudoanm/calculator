@@ -1,8 +1,0 @@
-
-
-> @calculator/cli@0.0.1 build /Users/hieudoan/git/github.com/hieudoanm/calculator/packages/cli
-> make build || true
-
-go vet ./...
-go fmt ./...
-go build -o ./bin/calc ./main.go

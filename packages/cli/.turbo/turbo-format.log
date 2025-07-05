@@ -1,6 +1,0 @@
-
-
-> @calculator/cli@0.0.1 format /Users/hieudoan/git/github.com/hieudoanm/calculator/packages/cli
-> make format || true
-
-go fmt ./...
