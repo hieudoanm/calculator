@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: NODE_ENV === 'development' ? '' : '/numbers',
+  basePath: NODE_ENV === 'development' ? '' : '/calculator',
   output: NODE_ENV === 'development' ? 'standalone' : 'export',
   distDir: NODE_ENV === 'development' ? '.next' : '../../docs',
 };
