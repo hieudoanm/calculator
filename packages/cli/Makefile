@@ -1,0 +1,19 @@
+lint:
+	go vet ./...
+
+format:
+	go fmt ./...
+
+build:
+	go vet ./...
+	go fmt ./...
+	go build -o ./bin/calc ./main.go
+
+install:
+	go vet ./...
+	go fmt ./...
+	go build -o ./bin/calc ./main.go
+	mkdir -p ~/bin
+	cp ./bin/calc ~/bin/
+	chmod +x ~/bin/calc
+	export PATH="$(HOME)/bin:$(PATH)"
