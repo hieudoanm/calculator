@@ -1,8 +1,8 @@
-import { CallToAction } from '@numbers/components/CallToAction';
-import { Features } from '@numbers/components/Features';
-import { Footer } from '@numbers/components/Footer';
-import { Hero } from '@numbers/components/Hero';
-import { Navbar } from '@numbers/components/Navbar';
+import { CallToAction } from '@numbers/components/landing/CallToAction';
+import { Features } from '@numbers/components/landing/Features';
+import { Footer } from '@numbers/components/landing/Footer';
+import { Hero } from '@numbers/components/landing/Hero';
+import { Navbar } from '@numbers/components/shared/Navbar';
 import { NextPage } from 'next';
 
 const HomePage: NextPage = () => {
