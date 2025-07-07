@@ -3,7 +3,7 @@ import { FC } from 'react';
 export const Features: FC = () => {
   return (
     <section className="py-16">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+      <div className="container mx-auto px-4 text-center md:px-8">
         <h3 className="text-3xl font-semibold sm:text-4xl">Why Use Our Calculator?</h3>
         <p className="mx-auto mt-4 max-w-2xl text-neutral-500">
           Perform quick, accurate calculations right in your browser. No sign-up. No distractions. Just results.

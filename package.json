@@ -16,11 +16,12 @@
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "scripts": {
+    "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "format": "turbo run format",
     "prebuild": "rimraf docs",
     "build": "turbo run build",
     "postbuild": "touch docs/.nojekyll",
-    "format": "turbo run format",
     "prepare": "husky || true"
   },
   "devDependencies": {
