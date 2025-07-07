@@ -13,7 +13,9 @@ export const Navbar = () => {
             { id: 'base', href: '/base', label: 'Base' },
             { id: 'crypto', href: '/crypto', label: 'Crypto' },
             { id: 'forex', href: '/forex', label: 'Forex' },
+            { id: 'length', href: '/length', label: 'Length' },
             { id: 'roman', href: '/roman', label: 'Roman' },
+            { id: 'weight', href: '/weight', label: 'Weight' },
           ].map(({ id, href, label }) => {
             return (
               <Link key={id} href={href} className="text-sm md:text-base">
