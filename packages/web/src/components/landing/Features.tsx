@@ -9,17 +9,17 @@ export const Features: FC = () => {
           Perform quick, accurate calculations right in your browser. No sign-up. No distractions. Just results.
         </p>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-xl border border-neutral-800 p-6 shadow-sm">
+          <div className="rounded-xl border border-neutral-700 bg-neutral-900/40 p-6 shadow-sm">
             <h4 className="text-lg font-semibold">⚡ Instant Results</h4>
             <p className="mt-2 text-sm text-neutral-500">Get answers as you type — no delays, no loading screens.</p>
           </div>
-          <div className="rounded-xl border border-neutral-800 p-6 shadow-sm">
+          <div className="rounded-xl border border-neutral-700 bg-neutral-900/40 p-6 shadow-sm">
             <h4 className="text-lg font-semibold">🔒 100% Local</h4>
             <p className="mt-2 text-sm text-neutral-500">
               All calculations happen in your browser. No data is sent anywhere.
             </p>
           </div>
-          <div className="rounded-xl border border-neutral-800 p-6 shadow-sm">
+          <div className="rounded-xl border border-neutral-700 bg-neutral-900/40 p-6 shadow-sm">
             <h4 className="text-lg font-semibold">🧮 Versatile Functions</h4>
             <p className="mt-2 text-sm text-neutral-500">
               From basic arithmetic to advanced functions — it’s all built in and easy to use.

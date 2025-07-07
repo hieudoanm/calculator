@@ -1,3 +1,4 @@
+import { APP_NAME } from '@numbers/constants';
 import '@numbers/styles/globals.css';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
@@ -19,7 +20,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Numbers</title>
+        <title>{APP_NAME}</title>
       </Head>
       <QueryClientProvider client={new QueryClient()}>
         <div className={`${geistSans.className} ${geistMono.className} bg-neutral-900 text-neutral-100`}>
