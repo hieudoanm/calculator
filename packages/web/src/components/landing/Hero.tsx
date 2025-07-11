@@ -14,7 +14,7 @@ export const Hero = () => {
           <Link href="/base">
             <button
               type="button"
-              className="cursor-pointer rounded-full border border-neutral-700 bg-neutral-900 px-6 py-3">
+              className="cursor-pointer rounded-full border border-neutral-700 bg-neutral-800 px-6 py-3">
               Launch App
             </button>
           </Link>
